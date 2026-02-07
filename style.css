@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Propose Day shivani ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Page Control -->
+<input type="radio" name="page" id="p1" checked>
+<input type="radio" name="page" id="p2">
+<input type="radio" name="page" id="p3">
+<input type="radio" name="page" id="p4">
+<input type="radio" name="page" id="p5">
+<input type="radio" name="page" id="p6">
+
+<!-- Popup -->
+<input type="checkbox" id="popup-toggle">
+
+<div class="moon"></div>
+
+<div class="hearts">
+  <span>❤️</span><span>💕</span><span>💖</span><span>💘</span><span>💗</span>
+</div>
+
+<!-- Popup -->
+<div class="popup">
+  <div class="popup-box">
+    <h2>💖 shivani 💖</h2>
+    <p>
+      Tum meri zindagi ka  
+      sabse khoobsurat ehsaas ho ❤️  
+      I Love You 💕
+    </p>
+    <label for="popup-toggle" class="btn">Close</label>
+  </div>
+</div>
+
+<section class="page page1">
+  <h1>🌹 Happy Propose Day 🌹</h1>
+  <p><b>shivani ❤️</b></p>
+  <label for="p2" class="btn">Start 💌</label>
+</section>
+
+<section class="page page2">
+  <h1>💞 Dil Ki Baat 💞</h1>
+  <p>Jab tum muskuraati ho meri shaam roshan ho jaati hai ✨</p>
+  <label for="popup-toggle" class="btn">Surprise 🎁</label>
+  <label for="p3" class="btn">Next 🌸</label>
+</section>
+
+<section class="page page3">
+  <h1>📸 Our Moments</h1>
+  <div class="photos">
+    <img src="img1.jpg">
+    <img src="img2.jpg">
+    <img src="img3.jpg">
+  </div>
+  <label for="p4" class="btn">Next 💖</label>
+</section>
+
+<section class="page page4">
+  <h1>🎵 For You Shivani</h1>
+  <p>Headphone laga ke sunna ❤️</p>
+  <audio controls loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <label for="p5" class="btn">Next 💕</label>
+</section>
+
+<section class="page page5">
+  <h1>💍 Will You Be Mine?</h1>
+  <p>Har subah tumhare saath, har shaam tumhare naam ❤️</p>
+  <label for="p6" class="btn">Yes 💖</label>
+</section>
+
+<section class="page page6">
+  <h1>😍 I Love You shivani 😍</h1>
+  <p>Scan this QR to revisit our love 💕</p>
+  <div class="qr-box">
+    <p>🔗 Website QR yahan lagao</p>
+  </div>
+  <p>— Yours Forever, <b>Satyam</b> 💞</p>
+</section>
+
+</body>
+</html>
